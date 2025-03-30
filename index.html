@@ -1,172 +1,146 @@
 <html>
+<head>
+    <link rel="stylesheet" href="./output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players</title>
+</head>
 <body>
-    <header>
-        <h1>Chess Players</h1>
-        <p>Brief information about best chess players in the world, now and in history.</p>
-        <a href="https://fl448341.github.io">Back to Home</a>
-    </header>
-    <article>
-        <h2>Current best chess players</h2>
-        <table>
-            <style>
-                table {
-                    border-collapse: collapse;
-                    border: 2px solid rgb(140 140 140);
-                    font-family: sans-serif;
-                    font-size: 0.8rem;
-                    letter-spacing: 1px;
-                }
-                caption {
-                    caption-side: bottom;
-                    padding: 10px;
-                    font-weight: bold;
-                }
-                thead,
-                tfoot {
-                    background-color: rgb(228 240 245);
-                }
-                th,
-                td {
-                    border: 1px solid rgb(160 160 160);
-                    padding: 8px 10px;
-                }
-                td:last-of-type {
-                    text-align: center;
-                }
-                tbody > tr:nth-of-type(even) {
-                    background-color: rgb(237 238 242);
-                }
-                tfoot th {
-                   text-align: right;
-                }
-                tfoot td {
-                   font-weight: bold;
-                }
-            </style>
-            <caption> Best chess players as of March 4 2025 </caption>
-            <thead> 
-                <tr>
-                    <th>Name</th>
-                    <th>Country</th>
-                    <th>Rating</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href = https://en.wikipedia.org/wiki/Magnus_Carlsen>
-                            Magnus Carlsen
-                        </a>
-                    </td>
-                    <td>Norway</td>
-                    <td>2833</td>
-                </tr>
-                <tr>
-                    <td><a href = https://en.wikipedia.org/wiki/Hikaru_Nakamura>
-                        Hikaru Nakamura
-                    </a></td>
-                    <td>USA</td>
-                    <td>2802</td>
-                </tr>
-                <tr>
-                    <td><a href = https://en.wikipedia.org/wiki/Gukesh_Dommaraju>
-                        Gukesh Dommaraju
-                    </a></td>
-                    <td>India</td>
-                    <td>2787</td>
-                </tr>
-                <tr>
-                    <td><a href = https://en.wikipedia.org/wiki/Fabiano_Caruana>
-                        Fabiano Caruana
-                    </a></td>
-                    <td>USA</td>
-                    <td>2783</td>
-                </tr>
-                <tr>
-                    <td><a href = https://en.wikipedia.org/wiki/Arjun_Erigaisi>
-                        Arjun Erigaisi
-                    </td>
-                    <td>India</td>
-                    <td>2777</td>
-                </tr>
-            </tbody>
-        </table>
-        <h2>Best chess players in history </h2>
-        <ol type="I">
-            <style>
-                ol li {
-                    color: rgb(174, 50, 209);
-                    padding: 5px;
-                    margin-left: 25px;
-                }
-            </style>
-            <li>Magnus Carlsen, 2858</li>
-            <li>Garry Kasparov, 2821</li>
-            <li>Bobby Fischer, 2802 </li>
-            <li>Anatoly Karpov, 2746</li>
-            <li>Mikhail Tal, 2711</li>
-        </ol>
-        <details>
-            <summary><strong>Note</strong></summary>
-            <em>this ranking is biased</em>
-        </details>
-        <br>
-        <img src = "https://www.imago-images.com/bild/sp/1045713024/s.jpg"
-        usemap="#chessmap">
-        <br><br>
-        <form>
-            <em>Type your ELO rating</em>
-            <br>
-            <input>
-            <br><br>
-            <em>Choose your favorite player</em>
-            <br>
-            <select>
-                <optgroup label="USA">
-                    <option>Bobby Fisher</option>
-                    <option>Hikaru Nakamura</option>
-                    <option>Fabiano Caruana</option>
-                </optgroup>
-                <optgroup label = "Norway">
-                    <option>Magnus Carlsen</option>
-                </optgroup>
-                <optgroup label = "India">
-                    <option>Arjun Erigaisi</option>
-                    <option>Gukesh Dommaraju</option>
-                </optgroup>
-                <optgroup label = "Latvia">
-                    <option>Mikhail Tal</option>
-                </optgroup>
-                <optgroup label ="USSR/Russia">
-                    <option>
-                        Anatoly Karpov
-                    </option>
-                    <option>
-                        Garry Kasparov
-                    </option>
-                </optgroup>
-            </select>
-            <button type="submit">Submit</button>
-        </form>
-        <br>
-        <label>Progress:</label>
-        <progress value="50" max="100"> 50%
-
-        </progress>
-        <br>
-        <map name = "chessmap">
-            <area target="" alt="R Praggnanandhaa" title="R Praggnanandhaa" href="https://en.wikipedia.org/wiki/R_Praggnanandhaa" coords="100,230,155,260,150,417,45,418,8,265,65,238,58,159,89,149,115,164,113,207" shape="poly">
-            <area target="" alt="Alireza Firouzja" title="Alireza Firouzja" href="https://en.wikipedia.org/wiki/Alireza_Firouzja" coords="228,165,238,83,213,62,184,76,182,169,133,197,136,232,176,263,181,324,184,415,279,383,289,281,278,191,262,181" shape="poly">
-            <area target="" alt="Fabiano Caruana" title="Fabiano Caruana" href="https://en.wikipedia.org/wiki/Fabiano_Caruana" coords="380,210,375,406,290,397,296,226,286,184,300,156,282,124,297,97,324,92,352,118,330,169" shape="poly">
-            <area target="" alt="Hikaru Nakamura" title="Hikaru Nakamura" href="https://en.wikipedia.org/wiki/Hikaru_Nakamura" coords="407,417,442,418,460,323,485,255,472,157,429,142,428,122,437,84,419,63,396,59,374,74,374,105,383,145,341,163,383,200,397,344,402,376" shape="poly">
-            <area target="" alt="Magnus Carlsen" title="Magnus Carlsen" href="https://en.wikipedia.org/wiki/Magnus_Carlsen" coords="452,141,481,161,492,258,475,309,491,409,518,410,530,310,569,417,591,412,582,249,600,217,613,184,603,137,587,96,539,82,545,47,540,34,536,13,514,6,496,18,489,49,501,62,502,93,462,106" shape="poly">
-        </map>
-    </article>
-    <br>
-    <footer>
-        <p>© 2025 Filip Łazowski</p>
-    </footer>
-
+    <header class="site-header">
+        <div class="flex items-center justify-between px-4">
+          <h1 class="site-title">
+            <a href="/">Chess Players</a>
+          </h1>
+          <nav class="flex items-center space-x-2">
+            <a class='sub-title' href="https://fl448341.github.io/">Chess Openings</a>
+            <a class='sub-title' href="https://github.com/fl448341/fl448341.github.io">GitHub</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="flex-container">
+            <div class="box" id="box1">
+                <table class="table-auto">    
+                    <caption style="caption-side: top"> Best chess players as of March 4 2025 </caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Country</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href = https://en.wikipedia.org/wiki/Magnus_Carlsen>
+                                    Magnus Carlsen
+                                </a>
+                            </td>
+                            <td>Norway</td>
+                            <td>2833</td>
+                        </tr>
+                        <tr>
+                            <td><a href = https://en.wikipedia.org/wiki/Hikaru_Nakamura>
+                                Hikaru Nakamura
+                            </a></td>
+                            <td>USA</td>
+                            <td>2802</td>
+                        </tr>
+                        <tr>
+                            <td><a href = https://en.wikipedia.org/wiki/Gukesh_Dommaraju>
+                                Gukesh Dommaraju
+                            </a></td>
+                            <td>India</td>
+                            <td>2787</td>
+                        </tr>
+                        <tr>
+                            <td><a href = https://en.wikipedia.org/wiki/Fabiano_Caruana>
+                                Fabiano Caruana
+                            </a></td>
+                            <td>USA</td>
+                            <td>2783</td>
+                        </tr>
+                        <tr>
+                            <td><a href = https://en.wikipedia.org/wiki/Arjun_Erigaisi>
+                                Arjun Erigaisi
+                            </td>
+                            <td>India</td>
+                            <td>2777</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="box" id="box2">
+                <h2>Best chess players in history </h2>
+                <ol type="I">
+                    <li>Magnus Carlsen, 2858</li>
+                    <li>Garry Kasparov, 2821</li>
+                    <li>Bobby Fischer, 2802 </li>
+                    <li>Anatoly Karpov, 2746</li>
+                    <li>Mikhail Tal, 2711</li>
+                </ol>
+                <details>
+                    <summary> </summary>
+                    <em>this ranking is biased</em>
+                </details>
+            </div>
+            <div class="box" id="box3">
+                <img src = "https://www.imago-images.com/bild/sp/1045713024/s.jpg" usemap="#chessmap">
+            </div>
+            <!-- <div class="box" id="box4">
+                <form>
+                    Type your ELO rating
+                    <br>
+                    <input>
+                    <br><br>
+                    Choose your favorite player
+                    <br>
+                    <select>
+                        <optgroup label="USA">
+                            <option>Bobby Fisher</option>
+                            <option>Hikaru Nakamura</option>
+                            <option>Fabiano Caruana</option>
+                        </optgroup>
+                        <optgroup label = "Norway">
+                            <option>Magnus Carlsen</option>
+                        </optgroup>
+                        <optgroup label = "India">
+                            <option>Arjun Erigaisi</option>
+                            <option>Gukesh Dommaraju</option>
+                        </optgroup>
+                        <optgroup label = "Latvia">
+                            <option>Mikhail Tal</option>
+                        </optgroup>
+                        <optgroup label ="USSR/Russia">
+                            <option>
+                                Anatoly Karpov
+                            </option>
+                            <option>
+                                Garry Kasparov
+                            </option>
+                        </optgroup>
+                    </select>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                        Submit
+                    </button>
+                </form>
+                <br>
+                </progress>
+            </div> -->
+            <map name = "chessmap">
+                <area target="" alt="R Praggnanandhaa" title="R Praggnanandhaa" href="https://en.wikipedia.org/wiki/R_Praggnanandhaa" coords="100,230,155,260,150,417,45,418,8,265,65,238,58,159,89,149,115,164,113,207" shape="poly">
+                <area target="" alt="Alireza Firouzja" title="Alireza Firouzja" href="https://en.wikipedia.org/wiki/Alireza_Firouzja" coords="228,165,238,83,213,62,184,76,182,169,133,197,136,232,176,263,181,324,184,415,279,383,289,281,278,191,262,181" shape="poly">
+                <area target="" alt="Fabiano Caruana" title="Fabiano Caruana" href="https://en.wikipedia.org/wiki/Fabiano_Caruana" coords="380,210,375,406,290,397,296,226,286,184,300,156,282,124,297,97,324,92,352,118,330,169" shape="poly">
+                <area target="" alt="Hikaru Nakamura" title="Hikaru Nakamura" href="https://en.wikipedia.org/wiki/Hikaru_Nakamura" coords="407,417,442,418,460,323,485,255,472,157,429,142,428,122,437,84,419,63,396,59,374,74,374,105,383,145,341,163,383,200,397,344,402,376" shape="poly">
+                <area target="" alt="Magnus Carlsen" title="Magnus Carlsen" href="https://en.wikipedia.org/wiki/Magnus_Carlsen" coords="452,141,481,161,492,258,475,309,491,409,518,410,530,310,569,417,591,412,582,249,600,217,613,184,603,137,587,96,539,82,545,47,540,34,536,13,514,6,496,18,489,49,501,62,502,93,462,106" shape="poly">
+            </map>
+        </div>
+    </main>
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+          <p>© 2025 Filip Łazowski, MIMUW - Computer Science </p>
+        </div>
+      </footer>
 </body>
 
 </html>
